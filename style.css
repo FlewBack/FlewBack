@@ -1,7 +1,11 @@
 h1,h2,h3,p{
 	color:#0088cc;
+	font-weight:bold;
+	font-size:36px;
 }
 
 p{
-	font-weight:bold;
+	font-weight:normal;
+	font-size: 24px;
 }
+
