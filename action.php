@@ -9,4 +9,5 @@
 <body>
 	<h1>Hello, <strong> <?php echo htmlspecialchars($_POST['name']); ?> </strong>.<h1>
 	<h2>You are <?php echo (int)$_POST['age']; ?> years old.<h2>
+	<h3> Well. <h3>
 </body>
