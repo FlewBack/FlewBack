@@ -6,6 +6,6 @@ function decode(){
     let result = (dec >>> 0).toString(numeral);
     
     let answerHTML = document.getElementById('answer');
-    answerHTML.insertAdjacentHTML('beforeEnd',result);
+    answerHTML.outerHTML = '<p id = "answer">' + result + '</p>';
 }
 
